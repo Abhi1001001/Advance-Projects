@@ -58,28 +58,31 @@ export default function Skills() {
           <h2 class="header-main-skills w-100 text-center">My Languages</h2>
           <div className="card-language-main-skills">
             <div className="sm-card-language-main-skills pb-5">
-              <div className="">English</div>
-              <div
-                class="progress"
-                role="progressbar"
-                aria-label="Basic example"
-                aria-valuenow="75"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              >
-                <div class="progress-bar w-75"></div>
+              <div className="progress-bar-text">
+                <div className="">English</div>
+                <div className="">Hindi</div>
               </div>
-
-              <div className="">Hindi</div>
-              <div
-                class="progress"
-                role="progressbar"
-                aria-label="Basic example"
-                aria-valuenow="75"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              >
-                <div class="progress-bar w-100"></div>
+              <div className="progress-bar">
+                <div
+                  class="progress"
+                  role="progressbar"
+                  aria-label="Basic example"
+                  aria-valuenow="75"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  <div class="progress-bar w-75"></div>
+                </div>
+                <div
+                  class="progress"
+                  role="progressbar"
+                  aria-label="Basic example"
+                  aria-valuenow="75"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  <div class="progress-bar w-100"></div>
+                </div>
               </div>
             </div>
           </div>
