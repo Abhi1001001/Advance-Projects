@@ -7,11 +7,17 @@ body {
   background-size: contain;
   background-attachment: fixed;
 }
-
-.navbar-collapse{
-  justify-content: end;
+.card-title {
+  color: rgb(0, 0, 0);
+}
+.card-header {
+  backdrop-filter: blur(3px);
 }
 
+/* Navbar Style */
+.navbar-collapse {
+  justify-content: end;
+}
 .navbar-brand {
   object-fit: cover;
 }
@@ -21,6 +27,7 @@ body {
   border: solid black 1px;
 }
 
+/* Projects Page Style */
 .main-projects {
   background-image: url(./images/background.jpg);
   background-size: cover;
@@ -34,13 +41,7 @@ body {
   color: rgb(0, 0, 0);
 }
 
-.card-title {
-  color: rgb(0, 0, 0);
-}
-.card-header {
-  backdrop-filter: blur(3px);
-}
-
+/* Home Page Style */
 .main-home {
   background-image: url(./images/background.jpg);
   background-size: cover;
@@ -69,6 +70,7 @@ body {
   box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.763);
 }
 
+/* Skills Page Style */
 .main-skills {
   background-image: url(./images/background.jpg);
   background-size: cover;
@@ -86,7 +88,6 @@ body {
   align-items: center;
   background-color: rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(1px);
-  /* background-color: yellowgreen; */
 }
 .sm-card-main-skills {
   height: 30vh;
@@ -110,13 +111,11 @@ body {
   border: solid black 1px;
 }
 .sm-card-language-main-skills {
-  width: 75vw;
+  width: 50vw;
   padding-top: 3rem;
   display: flex;
+  justify-content: space-evenly;
   font-size: 30px;
-  justify-content: space-between;
-  align-items: center;
-  /* background-color: blueviolet; */
 }
 .card-language-main-skills {
   width: 100%;
@@ -125,10 +124,16 @@ body {
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(1px);
-  /* background-color: yellowgreen; */
+}
+.progress-bar {
+  padding-top: 20px;
+}
+.progress {
+  margin-bottom: 25px;
+  width: 30vw;
 }
 
-
+/* Contect-us Page Style */
 .card-main-contect-us {
   width: 50vw;
   height: 65vh;
@@ -141,7 +146,6 @@ body {
 .sm-card-main-contect-us {
   background-color: rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(1px);
-  /* background-color: yellowgreen; */
 }
 .mail,
 .github,
@@ -150,6 +154,8 @@ body {
   align-items: center;
   justify-content: end;
 }
+
+/* Footer Style */
 
 .footer-section {
   width: 100%;
@@ -169,7 +175,6 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-content: end;
-  /* background-color: blueviolet; */
 }
 .text-footer {
   height: 10vh;
@@ -186,6 +191,8 @@ a {
   justify-content: space-around;
 }
 
+/* Resume Page Style */
+
 .sm-main-resume {
   border: solid black 1px;
   background-image: url(./images/background.jpg);
@@ -194,6 +201,8 @@ a {
 .card-main-resume {
   height: 100vh;
 }
+
+/* Education Page Style */
 
 .main-education {
   height: 80vh;
@@ -208,20 +217,16 @@ a {
   align-items: center;
   background-color: rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(1px);
-  /* background-color: blueviolet; */
 }
 .card-main-education {
   height: 30vh;
   width: 30vw;
   background: transparent;
   box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.763);
-
   color: black;
 }
 
-.progress {
-  width: 30vw;
-}
+/* Animation */
 
 .btn-home:hover,
 .btn-projects:hover,
@@ -233,37 +238,37 @@ a {
   transition: 0.7s;
 }
 
-.main-text-home{
+.main-text-home {
   overflow: hidden;
   white-space: nowrap;
-  animation:steps(25, end) 3s typing-right;
+  animation: steps(25, end) 3s typing-right;
 }
 @keyframes typing-right {
-  from{
+  from {
     width: 0;
   }
-  to{
+  to {
     width: 100%;
   }
 }
-.card-text-home{
+.card-text-home {
   overflow: hidden;
-  animation:steps(25, end) 1s typing-down;
+  animation: steps(25, end) 1s typing-down;
 }
 @keyframes typing-down {
-  from{
+  from {
     height: 0;
   }
-  to{
+  to {
     height: 20%;
   }
 }
 
+/* Media Query */
 
+@media (width<=576px) {
 
-
-
-@media (width<=576px){
+  /* Home Page Styling */
 
   .main-home {
     background-image: url(./images/portfolio-img.png);
@@ -284,144 +289,140 @@ a {
     box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.763);
   }
   .img-home {
-   display: none;    
+    display: none;
   }
-.main-text-home{
-  font-size: 20px;
-  color: white;
-}
-.btn-home{
-  display: none;
-}
+  .main-text-home {
+    font-size: 20px;
+    color: white;
+  }
+  .btn-home {
+    display: none;
+  }
+
+
+  /* Skills Page Styling */
+
+  .main-skills {
+    background-image: url(./images/background.jpg);
+    background-size: cover;
+    border: solid black 1px;
+  }
+  .header-main-skills {
+    backdrop-filter: blur(10px);
+    padding: 10px 0px;
+  }
+  .card-main-skills {
+    height: 60vh;
+    margin-top: -8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(1px);
+  }
+  .sm-card-main-skills {
+    height: 50vh;
+    width: 80vw;
+    margin-top: -2rem;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+  }
+  .logo-card-skills {
+    height: 80px;
+    width: 70px;
+    background-color: transparent;
+    box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.5);
+  }
+  .text-skill {
+    display: none;
+  }
+  .language-main-skills {
+    width: 85vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./images/background.jpg);
+    background-size: cover;
+    border: solid black 1px;
+  }
+  .card-language-main-skills {
+    width: 100%;
+  }
+  .sm-card-language-main-skills {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 18px;
+  }
+  .progress {
+    height: 10px;
+    margin-bottom: 15px;
+  }
+  .progress-bar {
+    padding-top: 10px;
+  }
 
 
 
+  /* Education Page Styling */
+
+  .main-education {
+    height: 80vh;
+    background-image: url(./images/background.jpg);
+    background-size: cover;
+    border: solid black 1px;
+  }
+  .sm-main-education {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(1px);
+  }
+  .card-main-education {
+    height: 200px;
+    width: 70%;
+    background: transparent;
+    margin: 20px 0px;
+    color: black;
+  }
 
 
+  /* Resume Page Styling */
 
-.main-skills {
-  background-image: url(./images/background.jpg);
-  background-size: cover;
-  border: solid black 1px;
-}
-.header-main-skills {
-  backdrop-filter: blur(10px);
-  padding: 10px 0px;
-}
-.card-main-skills {
-  height: 60vh;
-  margin-top: -8px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(0, 0, 0, 0.2);
-  backdrop-filter: blur(1px);
-  /* background-color: yellowgreen; */
-}
-.sm-card-main-skills {
-  height: 50vh;
-  width: 80vw;
-  margin-top: -2rem;
-  display: flex;
-  flex-wrap: wrap-reverse;
-  justify-content: space-around;
-  
-}
-.logo-card-skills {
-  height: 80px;
-  width: 70px;
-  background-color: transparent;
-  box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.5);
-}
-.text-skill{
-  display: none;
-}
-.language-main-skills {
-  width: 85vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: url(./images/background.jpg);
-  background-size: cover;
-  border: solid black 1px;
-}
-.card-language-main-skills {
-  width: 100%;
-}
-.sm-card-language-main-skills {
-  width: 60%;
-  display: flex;
-  flex-wrap: wrap;
-  font-size: 18px;
-}
-.progress{
-  height: 10px;
-  margin-top: 10px;
-}
+  .sm-main-resume {
+    height: 60vh;
+    border: solid black 1px;
+    background-image: url(./images/background.jpg);
+    background-size: cover;
+  }
+  .card-main-resume {
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(1px);
+  }
 
 
+  /* Contect-us Page Styling */
 
-.main-education {
-  height: 80vh;
-  background-image: url(./images/background.jpg);
-  background-size: cover;
-  border: solid black 1px;
-  
+  .main-contect-us {
+    height: auto;
+    width: 92vw;
+    flex-wrap: wrap;
+  }
+  .card-main-contect-us {
+    width: 100%;
+    height: 60vh;
+  }
+  .sm-card-main-contect-us {
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(1px);
+    /* background-color: chocolate; */
+  }
+  .mail,
+  .github,
+  .linkedin,
+  .phone {
+    align-items: center;
+    justify-content: end;
+  }
 }
-.sm-main-education {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  background-color: rgba(0, 0, 0, 0.2);
-  backdrop-filter: blur(1px);
-  /* background-color: blueviolet; */
-}
-.card-main-education {
-  height: 200px;
-  width: 70%;
-  background: transparent;
-  margin: 20px 0px;
-  color: black;
-}
-
-
-.sm-main-resume {
-  height: 60vh;
-  border: solid black 1px;
-  background-image: url(./images/background.jpg);
-  background-size: cover;
-}
-.card-main-resume {
-  background-color: rgba(0, 0, 0, 0.2);
-  backdrop-filter: blur(1px);
-}
-
-
-
-.main-contect-us{
-  height: auto;
-  width: 92vw;
-  flex-wrap: wrap;
-}
-
-.card-main-contect-us {
-  width: 100%;
-  height: 60vh;
-}
-.sm-card-main-contect-us {
-  background-color: rgba(0, 0, 0, 0.2);
-  backdrop-filter: blur(1px);
-  /* background-color: chocolate; */
-}
-.mail,
-.github,
-.linkedin,
-.phone {
-  align-items: center;
-  justify-content: end;
-}
-
-
-
-}
-
