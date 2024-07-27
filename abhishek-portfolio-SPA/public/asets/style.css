@@ -367,12 +367,13 @@ a {
   /* Education Page Styling */
 
   .main-education {
-    height: 80vh;
+    height: 100vh;
     background-image: url(./images/background.jpg);
     background-size: cover;
     border: solid black 1px;
   }
   .sm-main-education {
+    height: 100vh;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -380,7 +381,7 @@ a {
     backdrop-filter: blur(1px);
   }
   .card-main-education {
-    height: 200px;
+    height: 35vh;
     width: 70%;
     background: transparent;
     margin: 20px 0px;
