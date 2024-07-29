@@ -271,7 +271,7 @@ a {
   /* Home Page Styling */
 
   .main-home {
-    background-image: url(./images/portfolio-img.png);
+    background-image: url(./images/Portfolio-img.png);
     background-size: cover;
     border: solid black 1px;
   }
