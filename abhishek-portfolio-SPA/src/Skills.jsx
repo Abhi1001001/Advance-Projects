@@ -44,6 +44,11 @@ export default function Skills() {
                 <h4 className="text-skill text-center">MaterialUI</h4>
               </div>
 
+              <div class="card logo-card-skills mb-3 card-size">
+                <img src="./asets/images/tailwind.svg" alt="" />
+                <h4 className="text-skill text-center">TailwindCSS</h4>
+              </div>
+
               <div className="card logo-card-skills mb-3 card-size">
                 <img src="./asets/images/icon-github.svg" alt="" />
                 <h4 className="text-skill text-center">Github</h4>
