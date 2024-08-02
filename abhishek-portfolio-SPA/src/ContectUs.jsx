@@ -4,66 +4,66 @@ export default function ContectUs() {
   return (
     <>
       <div className="main-contect-us d-flex">
-        <div class="card card-main-contect-us mx-3">
-          <h2 class="card-header">Connect Me...</h2>
-          <div class=" card-body sm-card-main-contect-us">
-            <h5 class="card-title">Submit your details for connect with me</h5>
+        <div className="card card-main-contect-us mx-3">
+          <h2 className="card-header">Connect Me...</h2>
+          <div className=" card-body sm-card-main-contect-us">
+            <h5 className="card-title">Submit your details for connect with me</h5>
 
-            <div class="mb-3">
-              <label for="formGroupExampleInput" class="form-label">
+            <div className="mb-3">
+              <label for="formGroupExampleInput" className="form-label">
                 Full Name
               </label>
               <input
                 type="text"
-                class="form-control"
+                className="form-control"
                 id="formGroupExampleInput"
                 placeholder="Enter your full name"
               />
             </div>
-            <div class="mb-3">
-              <label for="formGroupExampleInput2" class="form-label">
+            <div className="mb-3">
+              <label for="formGroupExampleInput2" className="form-label">
                 Enter Email Address
               </label>
               <input
                 type="emil"
-                class="form-control"
+                className="form-control"
                 id="formGroupExampleInput2"
                 placeholder="Enter your email address"
               />
             </div>
-            <div class="mb-3">
-              <label for="formGroupExampleInput" class="form-label">
+            <div className="mb-3">
+              <label for="formGroupExampleInput" className="form-label">
                 Enter Phone Number
               </label>
               <input
                 type="text"
-                class="form-control"
+                className="form-control"
                 id="formGroupExampleInput"
                 placeholder="Enter your phone number"
               />
             </div>
-            <div class="mb-3">
-              <label for="formGroupExampleInput2" class="form-label">
+            <div className="mb-3">
+              <label for="formGroupExampleInput2" className="form-label">
                 Enter Profile
               </label>
               <input
                 type="text"
-                class="form-control"
+                className="form-control"
                 id="formGroupExampleInput2"
                 placeholder="Enter your profile"
               />
             </div>
-            <div class="col-auto">
-              <button type="submit" class="btn btn-primary btn-contect-us">
+            <div className="col-auto">
+              <button type="submit" className="btn btn-primary btn-contect-us">
                 Submit
               </button>
             </div>
           </div>
         </div>
 
-        <div class="card card-main-contect-us mx-3">
-          <h2 class="card-header">Find me on...</h2>
-          <div class="card-body sm-card-main-contect-us">
+        <div className="card card-main-contect-us mx-3">
+          <h2 className="card-header">Find me on...</h2>
+          <div className="card-body sm-card-main-contect-us">
             <div className="logo-contect-us w-75">
               <div className="linkedin d-flex">
                 <h5 className="me-5 ">Linked-in</h5>

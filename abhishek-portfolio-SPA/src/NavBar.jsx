@@ -14,7 +14,7 @@ export default function NavBar() {
         id="navbar-example2"
         className="navbar nav-background navbar-expand-lg px-3 mb-3 sticky-top"
       >
-        <div class="container-fluid">
+        <div className="container-fluid">
           <img
             className="navbar-brand"
             src="./asets/images/logo.png"
@@ -23,7 +23,7 @@ export default function NavBar() {
             alt="...."
           />
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarTogglerDemo02"
@@ -31,9 +31,9 @@ export default function NavBar() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul className="nav nav-pills">
               <li className="nav-item" role="presentation">
                 <Link to="#home" className="nav-link">
