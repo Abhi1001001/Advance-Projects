@@ -1,4 +1,8 @@
 import React from "react";
+import { ReactComponent as LinkedInIcon } from './icons/icon-linkedin.svg';
+import { ReactComponent as GitHubIcon } from './icons/icon-github.svg';
+import { ReactComponent as MailIcon } from './icons/icon-mail.svg';
+import { ReactComponent as WhatsAppIcon } from './icons/icon-whatsapp.svg';
 
 export default function ContectUs() {
   return (
@@ -68,48 +72,40 @@ export default function ContectUs() {
               <div className="linkedin d-flex">
                 <h5 className="me-5 ">Linked-in</h5>
                 <a href="https://www.linkedin.com/in/abhishek-vishwakarma-127b66227/">
-                  <img
+                <LinkedInIcon
                     className="logo-hover-contect-us rounded-2"
-                    src="./asets/images/icon-linkedin.svg"
-                    height="100px"
-                    width="100px"
-                    alt=""
+                    height={100}
+                    width={100}
                   />
                 </a>
               </div>
               <div className="github d-flex">
                 <h5 className="me-5">Github</h5>
                 <a href="https://github.com/Abhi1001001">
-                  <img
+                <GitHubIcon
                     className="logo-hover-contect-us rounded-2"
-                    src="./asets/images/icon-github.svg"
-                    height="100px"
-                    width="100px"
-                    alt=""
+                    height={100}
+                    width={100}
                   />
                 </a>
               </div>
               <div className="mail d-flex">
                 <h5 className="me-5">E-mail</h5>
                 <a href="mailto:av159593@gmail.com">
-                  <img
+                <MailIcon
                     className="logo-hover-contect-us rounded-2"
-                    src="./asets/images/icon-mail.svg"
-                    height="100px"
-                    width="100px"
-                    alt=""
+                    height={100}
+                    width={100}
                   />
                 </a>
               </div>
               <div className="phone d-flex">
                 <h5 className="me-5">WhatsApp</h5>
                 <a href="whatsapp:+917235047144">
-                  <img
+                <WhatsAppIcon
                     className="logo-hover-contect-us rounded-2"
-                    src="./asets/images/icon-whatsapp.svg"
-                    height="100px"
-                    width="100px"
-                    alt=""
+                    height={100}
+                    width={100}
                   />
                 </a>
               </div>

@@ -15,11 +15,6 @@ export default function Education() {
                   Holder of a Diploma in Electrical and Electronics Engineering
                   from the Board of technical Education Uttar Pradesh (BTEUP).
                 </p>
-                <a href="#" className="btn btn-home">
-                  <span className="material-symbols-outlined fs-2">
-                    exit_to_app
-                  </span>
-                </a>
               </div>
             </div>
 
@@ -31,11 +26,6 @@ export default function Education() {
                   I completed intermediate in science stream from an institute
                   affiliate with U P Board in 2019.
                 </p>
-                <a href="#" className="btn btn-home">
-                  <span className="material-symbols-outlined fs-2">
-                    exit_to_app
-                  </span>
-                </a>
               </div>
             </div>
           </div>

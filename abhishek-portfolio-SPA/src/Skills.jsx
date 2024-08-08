@@ -1,4 +1,13 @@
 import React from "react";
+import { ReactComponent as HtmlIcon } from "./icons/html.svg";
+import { ReactComponent as CSSIcon } from "./icons/css.svg";
+import { ReactComponent as JavaScriptIcon } from "./icons/javascript.svg";
+import { ReactComponent as ReactIcon } from "./icons/react.svg";
+import { ReactComponent as BootStrapIcon } from "./icons/bootstrap.svg";
+import { ReactComponent as ReduxIcon } from "./icons/redux.svg";
+import { ReactComponent as MaterialUIIcon } from "./icons/material-ui.svg";
+import { ReactComponent as GitHubIcon } from "./icons/icon-github.svg";
+import { ReactComponent as TailwindCSSIcon } from "./icons/tailwind.svg";
 
 export default function Skills() {
   return (
@@ -10,49 +19,55 @@ export default function Skills() {
           <div className="card-main-skills">
             <div className="sm-card-main-skills">
               <div className="card logo-card-skills mb-3 card-size">
-                <img src="./asets/images/html.svg" alt="" />
+                <HtmlIcon />
                 <h4 className="text-skill text-center">HTML</h4>
               </div>
 
               <div className="card logo-card-skills mb-3 card-size">
-                <img src="./asets/images/css.svg" alt="" />
+                <CSSIcon />
                 <h4 className="text-skill text-center">CSS</h4>
               </div>
 
               <div className="card logo-card-skills mb-3 card-size">
-                <img src="./asets/images/javascript.svg" alt="" />
+                <JavaScriptIcon />
                 <h4 className="text-skill text-center">Javascript</h4>
               </div>
 
               <div className="card logo-card-skills mb-3 card-size">
-                <img src="./asets/images/react.svg" alt="" />
+                <ReactIcon />
                 <h4 className="text-skill text-center mt-2">React</h4>
               </div>
 
               <div className="card logo-card-skills mb-3 card-size">
-                <img src="./asets/images/bootstrap.svg" alt="" />
+                <BootStrapIcon />
                 <h4 className="text-skill text-center">Bootstrap</h4>
               </div>
 
               <div className="card logo-card-skills mb-3 card-size">
-                <img src="./asets/images/redux.svg" alt="" />
-                <h4 className="text-skill text-center">Redux</h4>
+                <ReduxIcon />
+                <h4 className="text-skill text-center">Redux-Saga</h4>
               </div>
 
               <div className="card logo-card-skills mb-3 card-size">
-                <img src="./asets/images/material-ui.svg" alt="" />
+                <MaterialUIIcon />
                 <h4 className="text-skill text-center">MaterialUI</h4>
               </div>
 
               <div class="card logo-card-skills mb-3 card-size">
-                <img src="./asets/images/tailwind.svg" alt="" />
+                <TailwindCSSIcon />
                 <h4 className="text-skill text-center">TailwindCSS</h4>
               </div>
 
               <div className="card logo-card-skills mb-3 card-size">
-                <img src="./asets/images/icon-github.svg" alt="" />
+                <GitHubIcon />
                 <h4 className="text-skill text-center">Github</h4>
               </div>
+
+              <div className="card logo-card-skills mb-3 card-size">
+                <img src="./asets/images/icon-api.png" alt="" />
+                <h4 className="text-skill text-center">REST API</h4>
+              </div>
+
             </div>
           </div>
         </div>

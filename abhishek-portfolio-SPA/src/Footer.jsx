@@ -1,4 +1,7 @@
 import React from "react";
+import { ReactComponent as LinkedInIcon } from './icons/icon-linkedin.svg';
+import { ReactComponent as GitHubIcon } from './icons/icon-github.svg';
+import { ReactComponent as MailIcon } from './icons/icon-mail.svg';
 
 export default function Footer() {
   return (
@@ -14,27 +17,21 @@ export default function Footer() {
           </div>
           <div className="logo-footer">
             <a href="https://www.linkedin.com/in/abhishek-vishwakarma-127b66227/">
-              <img
-                src="./asets/images/icon-linkedin.svg"
-                height="30px"
-                width="30px"
-                alt=""
+              <LinkedInIcon
+                height={30}
+                width={30}
               />
             </a>
             <a href="https://github.com/Abhi1001001">
-              <img
-                src="./asets/images/icon-github.svg"
-                height="30px"
-                width="30px"
-                alt=""
+            <GitHubIcon
+                height={30}
+                width={30}
               />
             </a>
             <a href="mailto:av159593@gmail.com">
-              <img
-                src="./asets/images/icon-mail.svg"
-                height="30px"
-                width="30px"
-                alt=""
+            <MailIcon
+                height={30}
+                width={30}
               />
             </a>
           </div>
