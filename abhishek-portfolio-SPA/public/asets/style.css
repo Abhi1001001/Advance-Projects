@@ -97,7 +97,12 @@ body {
   gap: 5rem;
   justify-content: space-around;
 }
+.sm-card-main-skills img{
+  height: 144px;
+  width: 144px;
+}
 .logo-card-skills {
+  width: 144px;
   background-color: transparent;
   box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.5);
 }
@@ -312,21 +317,22 @@ a {
     padding: 10px 0px;
   }
   .card-main-skills {
-    height: 60vh;
+    height: 70vh;
     margin-top: -8px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(1px);
   }
   .sm-card-main-skills {
-    height: 50vh;
-    width: 80vw;
-    margin-top: -2rem;
+    height: 70vh;
+    width: 100vw;
+    padding-top: 15px;
     display: flex;
     flex-wrap: wrap-reverse;
-    justify-content: space-around;
+    justify-content: space-evenly;
+  }
+  .sm-card-main-skills img{
+    height: 80px;
+    width: 75px;
   }
   .logo-card-skills {
     height: 80px;
