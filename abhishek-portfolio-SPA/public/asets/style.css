@@ -144,7 +144,7 @@ body {
 .card-main-contect-us {
   width: 50vw;
   height: auto;
-  margin: 10px 5px;
+  margin-top: 16px;
   background-size: cover;
   border: solid black 1px;
   background: url(./images/background.jpg);
