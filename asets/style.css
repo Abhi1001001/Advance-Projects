@@ -4,7 +4,7 @@
 }
 body {
   background-image: url(./images/background.jpg);
-  background-size: contain;
+  background-size: cover;
   background-attachment: fixed;
 }
 .card-title {
@@ -80,12 +80,13 @@ body {
   backdrop-filter: blur(10px);
   padding: 10px 0px;
 }
+
 .card-main-skills {
   height: 80vh;
   margin-top: -8px;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   background-color: rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(1px);
 }
@@ -94,8 +95,8 @@ body {
   width: 80vw;
   display: flex;
   flex-wrap: wrap;
-  gap: 5rem;
-  justify-content: space-around;
+  gap: 5vw;
+  justify-content: space-between;
 }
 .sm-card-main-skills img{
   height: 144px;
@@ -108,7 +109,7 @@ body {
   box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.5);
 }
 .language-main-skills {
-  width: 95vw;
+  width: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -117,7 +118,7 @@ body {
   border: solid black 1px;
 }
 .sm-card-language-main-skills {
-  width: 50vw;
+  width: 100vw;
   padding-top: 3rem;
   display: flex;
   justify-content: space-evenly;
@@ -142,8 +143,8 @@ body {
 /* Contect-us Page Style */
 .card-main-contect-us {
   width: 50vw;
-  height: 65vh;
-  margin-bottom: 4rem;
+  height: auto;
+  margin: 10px 5px;
   background-size: cover;
   border: solid black 1px;
   background: url(./images/background.jpg);
@@ -273,7 +274,6 @@ a {
 /* Media Query */
 
 @media (width<=576px) {
-
   /* Home Page Styling */
 
   .main-home {
@@ -285,7 +285,7 @@ a {
     display: flex;
   }
   .sm-card-main-home {
-    height: 30vh;
+    height: 32vh;
     font-size: 12px;
     padding: 0px 20px;
     align-content: center;
@@ -304,7 +304,6 @@ a {
   .btn-home {
     display: none;
   }
-
 
   /* Skills Page Styling */
 
@@ -326,7 +325,8 @@ a {
   .sm-card-main-skills {
     height: 70vh;
     width: 100vw;
-    padding-top: 15px;
+    /* padding-top: 15px; */
+    padding: 0px 10px;
     display: flex;
     flex-wrap: wrap-reverse;
     justify-content: space-evenly;
@@ -337,7 +337,7 @@ a {
   }
   .logo-card-skills {
     height: 80px;
-    width: 70px;
+    width: 75px;
     background-color: transparent;
     box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.5);
   }
@@ -368,8 +368,12 @@ a {
   .progress-bar {
     padding-top: 10px;
   }
-
-
+  .card-title{
+    font-size: 15px;
+  }
+  .card-text{
+    font-size: 13px;
+  }
 
   /* Education Page Styling */
 
@@ -386,15 +390,15 @@ a {
     align-items: center;
     background-color: rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(1px);
+    /* background-color: violet; */
   }
   .card-main-education {
-    height: 30vh;
+    height: 28vh;
     width: 70%;
     background: transparent;
     margin: 20px 0px;
     color: black;
   }
-
 
   /* Resume Page Styling */
 
@@ -409,17 +413,17 @@ a {
     backdrop-filter: blur(1px);
   }
 
-
   /* Contect-us Page Styling */
 
   .main-contect-us {
-    height: auto;
     width: 92vw;
     flex-wrap: wrap;
   }
   .card-main-contect-us {
     width: 100%;
-    height: 60vh;
+    height: auto;
+    margin-bottom: 0;
+    margin-top: 20px;
   }
   .sm-card-main-contect-us {
     background-color: rgba(0, 0, 0, 0.2);
@@ -428,9 +432,15 @@ a {
   }
   .mail,
   .github,
-  .linkedin,
-  .phone {
+  .linkedin
+   {
     align-items: center;
     justify-content: end;
+  }
+  .mail-text,
+  .linkedin-text,
+  .github-text,
+  .whatsapp-text{
+    font-size: 15px;
   }
 }
