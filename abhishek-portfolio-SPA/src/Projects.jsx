@@ -3,11 +3,11 @@ import React from "react";
 export default function Projects() {
   return (
     <>
-      <div className="m-3">
-        <div className="card main-projects">
-          <h2 className="card-header">Basic Projects</h2>
-          <div className="card-body">
-            <h5 className="card-title mb-3">
+      <div className="">
+        <div class="card main-projects">
+          <h2 class="card-header">Basic Projects</h2>
+          <div class="card-body">
+            <h5 class="card-title mb-3">
               This collection comprises several foundational web development
               projects, each crafted using core HTML, CSS, and JavaScript. These
               projects are also designed to showcase the ability of building a
@@ -15,19 +15,19 @@ export default function Projects() {
               technologies and development practices.
             </h5>
             
-            <div className="card card-main-projects mb-3">
-              <div className="row g-0">
-                <div className="col-md-4">
+            <div class="card card-main-projects mb-3">
+              <div class="row g-0">
+                <div class="col-md-4">
                   <img
                     src="./asets/images/log-in-form-project.png"
-                    className="img-fluid rounded-start"
+                    class="img-fluid rounded-start"
                     alt="path.error"
                   />
                 </div>
-                <div className="col-md-8">
-                  <div className="card-body">
-                    <h5 className="card-title">Log-in Form</h5>
-                    <p className="card-text">
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Log-in Form</h5>
+                    <p class="card-text">
                       In this project I created a log-in form using core HTML,
                       CSS , JavaScript. Implemented client-side password
                       validation using regular expressions to ensure strong
@@ -44,9 +44,9 @@ export default function Projects() {
                     <a
                       href=" https://abhi1001001.github.io/Basic-Projects/Login-Form/"
                       target="blank"
-                      className="btn btn-projects"
+                      class="btn btn-projects"
                     >
-                      <span className="material-symbols-outlined fs-2">
+                      <span class="material-symbols-outlined fs-2">
                         exit_to_app
                       </span>
                     </a>
@@ -55,19 +55,19 @@ export default function Projects() {
               </div>
             </div>
 
-            <div className="card card-main-projects mb-3">
-              <div className="row g-0">
-                <div className="col-md-4">
+            <div class="card card-main-projects mb-3">
+              <div class="row g-0">
+                <div class="col-md-4">
                   <img
                     src="./asets/images/tic-tac-toe-project.png"
-                    className="img-fluid rounded-start"
+                    class="img-fluid rounded-start"
                     alt="path.error"
                   />
                 </div>
-                <div className="col-md-8">
-                  <div className="card-body">
-                    <h5 className="card-title">Tic-Tac-Toe</h5>
-                    <p className="card-text">
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Tic-Tac-Toe</h5>
+                    <p class="card-text">
                       I used same technologies for this project also.
                       Implemented game logic using JavaScript, including win
                       conditions, turn switching, and game reset
@@ -84,9 +84,9 @@ export default function Projects() {
                     <a
                       href=" https://abhi1001001.github.io/Basic-Projects/Tic-Tac-Toe/"
                       target="blank"
-                      className="btn btn-projects"
+                      class="btn btn-projects"
                     >
-                      <span className="material-symbols-outlined fs-2">
+                      <span class="material-symbols-outlined fs-2">
                         exit_to_app
                       </span>
                     </a>
@@ -95,19 +95,19 @@ export default function Projects() {
               </div>
             </div>
 
-            <div className="card card-main-projects mb-3">
-              <div className="row g-0">
-                <div className="col-md-4">
+            <div class="card card-main-projects mb-3">
+              <div class="row g-0">
+                <div class="col-md-4">
                   <img
                     src="./asets/images/currency-converter-project.png"
-                    className="img-fluid rounded-start"
+                    class="img-fluid rounded-start"
                     alt="path.error"
                   />
                 </div>
-                <div className="col-md-8">
-                  <div className="card-body">
-                    <h5 className="card-title">Currency-Converter</h5>
-                    <p className="card-text">
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Currency-Converter</h5>
+                    <p class="card-text">
                       I developed a dynamic currency converter application using
                       core HTML for layout, CSS for styling, and JavaScript for
                       functionality.Integrated with an external API to fetch
@@ -122,9 +122,9 @@ export default function Projects() {
                     <a
                       href=" https://abhi1001001.github.io/Basic-Projects/Currency-Converter/"
                       target="blank"
-                      className="btn btn-projects"
+                      class="btn btn-projects"
                     >
-                      <span className="material-symbols-outlined fs-2">
+                      <span class="material-symbols-outlined fs-2">
                         exit_to_app
                       </span>
                     </a>
@@ -133,21 +133,21 @@ export default function Projects() {
               </div>
             </div>
 
-            <div className="card card-main-projects mb-3">
-              <div className="row g-0">
-                <div className="col-md-4">
+            <div class="card card-main-projects mb-3">
+              <div class="row g-0">
+                <div class="col-md-4">
                   <img
                     src="./asets/images/clock-project.png"
-                    className="rounded-start"
+                    class="rounded-start"
                     height="100%"
                     width="100%"
                     alt="path.error"
                   />
                 </div>
-                <div className="col-md-8">
-                  <div className="card-body">
-                    <h5 className="card-title">Digital-Clock</h5>
-                    <p className="card-text">
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Digital-Clock</h5>
+                    <p class="card-text">
                       I Developed a real-time digital clock using core HTML for
                       structure, CSS for styling, and JavaScript for
                       functionality.Utilized JavaScript’s inbuilt date and time
@@ -161,9 +161,9 @@ export default function Projects() {
                     <a
                       href=" https://abhi1001001.github.io/Basic-Projects/Clock/"
                       target="blank"
-                      className="btn btn-projects"
+                      class="btn btn-projects"
                     >
-                      <span className="material-symbols-outlined fs-2">
+                      <span class="material-symbols-outlined fs-2">
                         exit_to_app
                       </span>
                     </a>
@@ -174,10 +174,10 @@ export default function Projects() {
           </div>
         </div>
 
-        <div className="card main-projects my-3">
-          <h2 className="card-header">Advance Projects</h2>
-          <div className="card-body">
-            <h5 className="card-title mb-3">
+        <div class="card main-projects my-3">
+          <h2 class="card-header">Advance Projects</h2>
+          <div class="card-body">
+            <h5 class="card-title mb-3">
               This advanced web development project leverages the React library
               and the Bootstrap framework to create a dynamic and responsive web
               application for better performance.This project wants to bring a
@@ -185,21 +185,21 @@ export default function Projects() {
               applications - that is the main focus of this initiative.
             </h5>
 
-            <div className="card card-main-projects mb-3">
-              <div className="row g-0">
-                <div className="col-md-4 bg-info">
+            <div class="card card-main-projects mb-3">
+              <div class="row g-0">
+                <div class="col-md-4 bg-info">
                   <img
                     src="./asets/images/newsapp-project.png"
-                    className="rounded-start"
+                    class="rounded-start"
                     height="100%"
                     width="100%"
                     alt="path.error"
                   />
                 </div>
-                <div className="col-md-8">
-                  <div className="card-body">
-                    <h5 className="card-title">News App</h5>
-                    <p className="card-text">
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">News App</h5>
+                    <p class="card-text">
                       I Developed a dynamic news application to display the
                       latest news articles using web technologies and the React
                       framework.Integrated with an external news API to fetch
@@ -217,8 +217,8 @@ export default function Projects() {
                       screen sizes.Source code also available on my gitgub
                       account.
                     </p>
-                    <a href="https://github.com/Abhi1001001/Advance-Projects/tree/main/NewsAPP" target="blank" className="btn btn-projects">
-                      <span className="material-symbols-outlined fs-2">
+                    <a href="https://github.com/Abhi1001001/Advance-Projects/tree/main/NewsAPP" target="blank" class="btn btn-projects">
+                      <span class="material-symbols-outlined fs-2">
                         exit_to_app
                       </span>
                     </a>
@@ -227,19 +227,19 @@ export default function Projects() {
               </div>
             </div>
 
-            <div className="card card-main-projects mb-3">
-              <div className="row g-0">
-                <div className="col-md-4">
+            <div class="card card-main-projects mb-3">
+              <div class="row g-0">
+                <div class="col-md-4">
                   <img
                     src="./asets/images/abhishek-portfolio-project.png"
-                    className="img-fluid rounded-start"
+                    class="img-fluid rounded-start"
                     alt="path.error"
                   />
                 </div>
-                <div className="col-md-8">
-                  <div className="card-body">
-                    <h5 className="card-title">Abhishek Portfolio</h5>
-                    <p className="card-text">
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Abhishek Portfolio</h5>
+                    <p class="card-text">
                       I Developed a personal portfolio website to showcase
                       projects, skills, and experience using web technologies
                       and the React framework.Built the website using React to
@@ -247,16 +247,16 @@ export default function Projects() {
                       experience.mplemented React Router for smooth and
                       efficient navigation between different sections of the
                       website, enhancing the single-page application (SPA)
-                      experience.Used Bootstrap to ensure the website is fully
-                      responsive and visually appealing on various devices and
+                      experience.Used Bootstrap to ensure the website is
+                      responsive for PC, Mobile Phone and visually appealing on various devices and
                       screen sizes.Employed event listeners to handle user
                       interactions, such as navigation clicks and form
                       submissions, improving the overall user experience.Applied
                       custom CSS to create a unique and personalized design that
                       reflects individual branding.
                     </p>
-                    <a href="#" target="blank" className="btn btn-projects">
-                      <span className="material-symbols-outlined fs-2">
+                    <a href="#" target="blank" class="btn btn-projects">
+                      <span class="material-symbols-outlined fs-2">
                         exit_to_app
                       </span>
                     </a>
