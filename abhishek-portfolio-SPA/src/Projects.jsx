@@ -5,7 +5,7 @@ export default function Projects() {
     <>
       <div className="">
         <div class="card main-projects">
-          <h2 class="card-header">Basic Projects</h2>
+          <h2 class="card-header">Miner Projects</h2>
           <div class="card-body">
             <h5 class="card-title mb-3">
               This collection comprises several foundational web development
@@ -14,7 +14,7 @@ export default function Projects() {
               static and dynamic web page with an emphasis on core web
               technologies and development practices.
             </h5>
-            
+
             <div class="card card-main-projects mb-3">
               <div class="row g-0">
                 <div class="col-md-4">
@@ -46,7 +46,10 @@ export default function Projects() {
                       target="blank"
                       class="btn btn-projects"
                     >
-                      <span class="material-symbols-outlined fs-2">
+                      <span
+                        title="Open live"
+                        class="material-symbols-outlined fs-2"
+                      >
                         exit_to_app
                       </span>
                     </a>
@@ -86,7 +89,10 @@ export default function Projects() {
                       target="blank"
                       class="btn btn-projects"
                     >
-                      <span class="material-symbols-outlined fs-2">
+                      <span
+                        title="Open live"
+                        class="material-symbols-outlined fs-2"
+                      >
                         exit_to_app
                       </span>
                     </a>
@@ -124,7 +130,10 @@ export default function Projects() {
                       target="blank"
                       class="btn btn-projects"
                     >
-                      <span class="material-symbols-outlined fs-2">
+                      <span
+                        title="Open live"
+                        class="material-symbols-outlined fs-2"
+                      >
                         exit_to_app
                       </span>
                     </a>
@@ -163,7 +172,10 @@ export default function Projects() {
                       target="blank"
                       class="btn btn-projects"
                     >
-                      <span class="material-symbols-outlined fs-2">
+                      <span
+                        title="Open live"
+                        class="material-symbols-outlined fs-2"
+                      >
                         exit_to_app
                       </span>
                     </a>
@@ -175,7 +187,7 @@ export default function Projects() {
         </div>
 
         <div class="card main-projects my-3">
-          <h2 class="card-header">Advance Projects</h2>
+          <h2 class="card-header">Major Projects</h2>
           <div class="card-body">
             <h5 class="card-title mb-3">
               This advanced web development project leverages the React library
@@ -217,8 +229,15 @@ export default function Projects() {
                       screen sizes.Source code also available on my gitgub
                       account.
                     </p>
-                    <a href="https://github.com/Abhi1001001/Advance-Projects/tree/main/NewsAPP" target="blank" class="btn btn-projects">
-                      <span class="material-symbols-outlined fs-2">
+                    <a
+                      href="https://github.com/Abhi1001001/Advance-Projects/tree/main/NewsAPP"
+                      target="blank"
+                      class="btn btn-projects"
+                    >
+                      <span
+                        title="Open live"
+                        class="material-symbols-outlined fs-2"
+                      >
                         exit_to_app
                       </span>
                     </a>
@@ -248,15 +267,18 @@ export default function Projects() {
                       efficient navigation between different sections of the
                       website, enhancing the single-page application (SPA)
                       experience.Used Bootstrap to ensure the website is
-                      responsive for PC, Mobile Phone and visually appealing on various devices and
-                      screen sizes.Employed event listeners to handle user
-                      interactions, such as navigation clicks and form
-                      submissions, improving the overall user experience.Applied
-                      custom CSS to create a unique and personalized design that
-                      reflects individual branding.
+                      responsive for PC, Mobile Phone and visually appealing on
+                      various devices and screen sizes.Employed event listeners
+                      to handle user interactions, such as navigation clicks and
+                      form submissions, improving the overall user
+                      experience.Applied custom CSS to create a unique and
+                      personalized design that reflects individual branding.
                     </p>
                     <a href="#" target="blank" class="btn btn-projects">
-                      <span class="material-symbols-outlined fs-2">
+                      <span
+                        title="Open live"
+                        class="material-symbols-outlined fs-2"
+                      >
                         exit_to_app
                       </span>
                     </a>
