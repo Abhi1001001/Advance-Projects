@@ -19,39 +19,39 @@ export default function Skills() {
           <div className="card-main-skills">
             <div className="sm-card-main-skills">
               <div className="card logo-card-skills mb-3 card-size">
-                <HtmlIcon />
+                <HtmlIcon className="svg-skills" />
                 <h4 className="text-skill text-center">HTML</h4>
               </div>
               <div className="card logo-card-skills mb-3 card-size">
-                <CSSIcon />
+                <CSSIcon className="svg-skills" />
                 <h4 className="text-skill text-center">CSS</h4>
               </div>
               <div className="card logo-card-skills mb-3 card-size">
-                <JavaScriptIcon />
+                <JavaScriptIcon className="svg-skills" />
                 <h4 className="text-skill text-center">Javascript</h4>
               </div>
               <div className="card logo-card-skills mb-3 card-size">
-                <ReactIcon />
+                <ReactIcon className="svg-skills" />
                 <h4 className="text-skill text-center mt-2">React</h4>
               </div>
               <div className="card logo-card-skills mb-3 card-size">
-                <BootStrapIcon />
+                <BootStrapIcon className="svg-skills" />
                 <h4 className="text-skill text-center">Bootstrap</h4>
               </div>
               <div className="card logo-card-skills mb-3 card-size">
-                <ReduxIcon />
+                <ReduxIcon className="svg-skills" />
                 <h4 className="text-skill text-center">Redux-Saga</h4>
               </div>
               <div className="card logo-card-skills mb-3 card-size">
-                <MaterialUIIcon />
+                <MaterialUIIcon className="svg-skills" />
                 <h4 className="text-skill text-center">MaterialUI</h4>
               </div>
               <div className="card logo-card-skills mb-3 card-size">
-                <TailwindCSSIcon />
+                <TailwindCSSIcon className="svg-skills" />
                 <h4 className="text-skill text-center">TailwindCSS</h4>
               </div>
               <div className="card logo-card-skills mb-3 card-size">
-                <GitHubIcon />
+                <GitHubIcon className="svg-skills" />
                 <h4 className="text-skill text-center">Github</h4>
               </div>
               <div className="card logo-card-skills mb-3 card-size">

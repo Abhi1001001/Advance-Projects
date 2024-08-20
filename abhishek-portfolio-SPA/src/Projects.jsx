@@ -286,6 +286,52 @@ export default function Projects() {
                 </div>
               </div>
             </div>
+
+            <div class="card card-main-projects mb-3">
+              <div class="row g-0">
+                <div class="col-md-4 project-img">
+                  <img
+                    src="./asets/images/e-comm-project.png"
+                    class="img-fluid rounded-start"
+                    alt="path.error"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">E-Comm Project</h5>
+                    <p class="card-text">
+                      I am currently working on a fully operational
+                      and responsive e-commerce website that aims to deliver a
+                      user experience on par with leading e-commerce platforms.
+                      HTML, CSS, JavaScript technologies are used to structure,
+                      style, and add interactivity to the website.React enables
+                      the development of reusable components and ensures a
+                      dynamic, responsive user experience. Redux & Redux-Saga
+                      Implemented for state management and handling asynchronous
+                      operations, these tools ensure the application remains
+                      scalable and maintainable as it grows in complexity.
+                      Tailwind CSS This utility-first CSS framework is being
+                      used to rapidly build a responsive and visually appealing
+                      design, with minimal custom CSS required. To simulate
+                      backend operations during the development phase, a JSON
+                      server is being used to store and manage data, allowing
+                      for realistic testing of the e-commerce functionalities.
+                      Integrated for creating responsive carousels, SwiperJS
+                      adds to the visual appeal of the website by enabling the
+                      display of featured products or promotional content.
+                    </p>
+                    <a href="#" target="blank" class="btn btn-projects">
+                      <span
+                        class="material-symbols-outlined fs-2"
+                      >
+                        exit_to_app
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
