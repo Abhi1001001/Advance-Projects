@@ -267,24 +267,14 @@ a {
   animation: steps(25, end) 1s typing-down;
 }
 
+
+
 @keyframes typing-right {
   from {
     width: 0;
   }
   to {
     width: 100%;
-  }
-}
-.card-text-home {
-  overflow: hidden;
-  animation: steps(25, end) 1s typing-down;
-}
-@keyframes typing-down {
-  from {
-    height: 0;
-  }
-  to {
-    height: 20%;
   }
 }
 
