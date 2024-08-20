@@ -61,7 +61,6 @@ body {
   width: 30vw;
   margin-left: 3rem;
   border-radius: 50%;
-  box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.763);
 }
 .btn-home,
 .btn-projects {
@@ -80,7 +79,6 @@ body {
   backdrop-filter: blur(10px);
   padding: 10px 0px;
 }
-
 .card-main-skills {
   height: 80vh;
   margin-top: -8px;
@@ -245,11 +243,27 @@ a {
   transition: 0.7s;
 }
 
+.image-home{
+  overflow: hidden;
+  white-space: nowrap;
+  animation: 0.8s both running slidein;
+}
+
 .main-text-home {
   overflow: hidden;
   white-space: nowrap;
   animation: steps(25, end) 3s typing-right;
 }
+
+.svg-skills:hover, .sm-card-main-skills img:hover{
+  animation: 0.7s both running rotate; 
+}
+
+.card-text-home {
+  overflow: hidden;
+  animation: steps(25, end) 1s typing-down;
+}
+
 @keyframes typing-right {
   from {
     width: 0;
@@ -262,6 +276,36 @@ a {
   overflow: hidden;
   animation: steps(25, end) 1s typing-down;
 }
+@keyframes typing-down {
+  from {
+    height: 0;
+  }
+  to {
+    height: 20%;
+  }
+}
+
+@keyframes slidein {
+  from {
+    position: relative;
+    right: -50vw;
+  }
+  to {
+    position: relative;
+    right: 0vw;
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
 @keyframes typing-down {
   from {
     height: 0;
