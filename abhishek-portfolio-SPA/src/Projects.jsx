@@ -17,7 +17,7 @@ export default function Projects() {
 
             <div class="card card-main-projects mb-3">
               <div class="row g-0">
-                <div class="col-md-4">
+                <div class="col-md-4 image-project">
                   <img
                     src="./asets/images/log-in-form-project.png"
                     class="img-fluid rounded-start"
@@ -60,7 +60,7 @@ export default function Projects() {
 
             <div class="card card-main-projects mb-3">
               <div class="row g-0">
-                <div class="col-md-4">
+                <div class="col-md-4 image-project">
                   <img
                     src="./asets/images/tic-tac-toe-project.png"
                     class="img-fluid rounded-start"
@@ -103,7 +103,7 @@ export default function Projects() {
 
             <div class="card card-main-projects mb-3">
               <div class="row g-0">
-                <div class="col-md-4">
+                <div class="col-md-4 image-project">
                   <img
                     src="./asets/images/currency-converter-project.png"
                     class="img-fluid rounded-start"
@@ -144,7 +144,7 @@ export default function Projects() {
 
             <div class="card card-main-projects mb-3">
               <div class="row g-0">
-                <div class="col-md-4">
+                <div class="col-md-4 image-project">
                   <img
                     src="./asets/images/clock-project.png"
                     class="rounded-start"
@@ -199,7 +199,7 @@ export default function Projects() {
 
             <div class="card card-main-projects mb-3">
               <div class="row g-0">
-                <div class="col-md-4 bg-info">
+                <div class="col-md-4 image-project">
                   <img
                     src="./asets/images/newsapp-project.png"
                     class="rounded-start"
@@ -248,7 +248,7 @@ export default function Projects() {
 
             <div class="card card-main-projects mb-3">
               <div class="row g-0">
-                <div class="col-md-4">
+                <div class="col-md-4 image-project">
                   <img
                     src="./asets/images/abhishek-portfolio-project.png"
                     class="img-fluid rounded-start"
@@ -289,7 +289,7 @@ export default function Projects() {
 
             <div class="card card-main-projects mb-3">
               <div class="row g-0">
-                <div class="col-md-4 project-img">
+                <div class="col-md-4 image-project">
                   <img
                     src="./asets/images/e-comm-project.png"
                     class="img-fluid rounded-start"
