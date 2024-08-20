@@ -26,6 +26,7 @@ export default function Home() {
             </div>
             <div className="img-home col-12 col-sm-5 ">
               <img
+              className="image-home"
                 src="./asets/images/Portfolio-img.png"
                 height="100%"
                 width="100%"
