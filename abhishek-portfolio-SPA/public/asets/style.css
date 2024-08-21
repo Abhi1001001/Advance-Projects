@@ -105,6 +105,7 @@ body {
 }
 .logo-card-skills {
   width: 144px;
+  height: 205px;
   align-items: center;
   background-color: transparent;
   box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.5);
@@ -259,7 +260,7 @@ a {
 }
 
 .svg-skills:hover, .sm-card-main-skills img:hover{
-  animation: 0.7s both running rotate; 
+  animation: 0.2s both linear zoomIn; 
 }
 
 .card-text-home {
@@ -289,12 +290,14 @@ a {
   }
 }
 
-@keyframes rotate {
-  0% {
-    transform: rotate(0);
+@keyframes zoomIn {
+  from {
+    height: 144px;
+    width: 144px;
   }
-  100% {
-    transform: rotate(360deg);
+  to {
+    height: 155px;
+    width: 155px;
   }
 }
 
@@ -354,15 +357,14 @@ a {
     padding: 10px 0px;
   }
   .card-main-skills {
-    height: 70vh;
+    height: 60vh;
     margin-top: -8px;
     background-color: rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(1px);
   }
   .sm-card-main-skills {
-    height: 70vh;
+    height: 50vh;
     width: 100vw;
-    /* padding-top: 15px; */
     padding: 0px 10px;
     display: flex;
     flex-wrap: wrap-reverse;
