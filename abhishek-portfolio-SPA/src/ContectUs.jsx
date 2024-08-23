@@ -7,7 +7,7 @@ import { ReactComponent as WhatsAppIcon } from "./icons/icon-whatsapp.svg";
 export default function ContectUs() {
   return (
     <>
-      <div className="main-contect-us d-flex gap-4">
+      <div className="main-contect-us d-flex gap-3">
         <div class="card card-main-contect-us">
           <h2 class="card-header">Connect Me...</h2>
           <div class=" card-body sm-card-main-contect-us">
