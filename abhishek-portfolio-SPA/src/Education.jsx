@@ -9,6 +9,7 @@ export default function Education() {
           <div className="sm-main-education">
             <div class="card card-main-education">
               <div class="card-body">
+              <img className="education-img" src="./asets/images/education-icon.png" alt="Path Error..." />
                 <h4 class="card-title">Diploma</h4>
                 <p>2019-2022</p>
                 <p class="card-text">
@@ -20,6 +21,7 @@ export default function Education() {
 
             <div class="card card-main-education">
               <div class="card-body">
+              <img className="education-img" src="./asets/images/education-icon.png" alt="Path Error..." />
                 <h4 class="card-title">Intermediate</h4>
                 <p>2017-2019</p>
                 <p class="card-text">
