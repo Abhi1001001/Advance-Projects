@@ -10,9 +10,10 @@ export default function NewsItems(props) {
             <h5 className="card-title">{props.title.slice(0, 40) + "..."}</h5>
             <h6 className="card-source">
               {props.source} -{" "}
-              {`${new Date(props.date).getDate()}/${new Date(
-                props.date
-              ).getMonth()+1}/${new Date(props.date).getFullYear()}`}
+               {/* getting published date --------> */}
+              {`${new Date(props.date).getDate()}/${
+                new Date(props.date).getMonth() + 1
+              }/${new Date(props.date).getFullYear()}`}
             </h6>
             <hr />
             <p className="card-text">

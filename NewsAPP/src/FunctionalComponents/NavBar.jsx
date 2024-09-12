@@ -2,11 +2,13 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 export default function NavBar(props) {
+  //state management for search value --------------->
   let [search, setsearch] = useState("");
-
+  //getting data from search ------------>
   const getData = (e) => {
     setsearch(e.target.value);
   };
+  // search data sending to parent ------------>
   const postData = (e) => {
     e.preventDefault();
     props.changeSearch(search);
@@ -42,6 +44,7 @@ export default function NavBar(props) {
                   className="nav-link text-light active"
                   aria-current="page"
                   to="/live"
+                  // blank data sending to parent -------->
                   onClick={() => props.changeSearch("")}
                 >
                   Live
@@ -51,6 +54,7 @@ export default function NavBar(props) {
                 <Link
                   className="nav-link text-light"
                   to="/all"
+                  // blank data sending to parent -------->
                   onClick={() => props.changeSearch("")}
                 >
                   All
@@ -60,6 +64,7 @@ export default function NavBar(props) {
                 <Link
                   className="nav-link text-light"
                   to="/latest-news"
+                  // blank data sending to parent -------->
                   onClick={() => props.changeSearch("")}
                 >
                   Latest News
@@ -69,6 +74,7 @@ export default function NavBar(props) {
                 <Link
                   className="nav-link text-light"
                   to="/education"
+                  // blank data sending to parent -------->
                   onClick={() => props.changeSearch("")}
                 >
                   Education
@@ -78,6 +84,7 @@ export default function NavBar(props) {
                 <Link
                   className="nav-link text-light"
                   to="/sports"
+                  // blank data sending to parent -------->
                   onClick={() => props.changeSearch("")}
                 >
                   Sports
@@ -87,6 +94,7 @@ export default function NavBar(props) {
                 <Link
                   className="nav-link text-light"
                   to="/business"
+                  // blank data sending to parent -------->
                   onClick={() => props.changeSearch("")}
                 >
                   Business
@@ -96,6 +104,7 @@ export default function NavBar(props) {
                 <Link
                   className="nav-link text-light"
                   to="/entertainment"
+                  // blank data sending to parent -------->
                   onClick={() => props.changeSearch("")}
                 >
                   Entertainment
@@ -105,6 +114,7 @@ export default function NavBar(props) {
                 <Link
                   className="nav-link text-light"
                   to="/life-style"
+                  // blank data sending to parent -------->
                   onClick={() => props.changeSearch("")}
                 >
                   Life Style
@@ -125,6 +135,7 @@ export default function NavBar(props) {
                     <Link
                       className="dropdown-item"
                       to="/world"
+                      // blank data sending to parent -------->
                       onClick={() => props.changeSearch("")}
                     >
                       World
@@ -134,6 +145,7 @@ export default function NavBar(props) {
                     <Link
                       className="dropdown-item"
                       to="/india"
+                      // blank data sending to parent -------->
                       onClick={() => props.changeSearch("")}
                     >
                       India
@@ -143,6 +155,7 @@ export default function NavBar(props) {
                     <Link
                       className="dropdown-item"
                       to="/culture"
+                      // blank data sending to parent -------->
                       onClick={() => props.changeSearch("")}
                     >
                       Culture
@@ -152,6 +165,7 @@ export default function NavBar(props) {
                     <Link
                       className="dropdown-item"
                       to="/technology"
+                      // blank data sending to parent -------->
                       onClick={() => props.changeSearch("")}
                     >
                       Technology
@@ -161,6 +175,7 @@ export default function NavBar(props) {
                     <Link
                       className="dropdown-item"
                       to="/health"
+                      // blank data sending to parent -------->
                       onClick={() => props.changeSearch("")}
                     >
                       Health
@@ -170,6 +185,7 @@ export default function NavBar(props) {
                     <Link
                       className="dropdown-item"
                       to="/science"
+                      // blank data sending to parent -------->
                       onClick={() => props.changeSearch("")}
                     >
                       Science
@@ -179,6 +195,7 @@ export default function NavBar(props) {
                     <Link
                       className="dropdown-item"
                       to="/environment"
+                      // blank data sending to parent -------->
                       onClick={() => props.changeSearch("")}
                     >
                       Environment
@@ -188,6 +205,7 @@ export default function NavBar(props) {
                     <Link
                       className="dropdown-item"
                       to="/weather"
+                      // blank data sending to parent -------->
                       onClick={() => props.changeSearch("")}
                     >
                       Weather
@@ -209,6 +227,7 @@ export default function NavBar(props) {
                   <li>
                     <button
                       className="dropdown-item"
+                      // language data sending to parent -------->
                       onClick={() => props.changeLanguage("hi")}
                     >
                       Hindi
@@ -217,6 +236,7 @@ export default function NavBar(props) {
                   <li>
                     <button
                       className="dropdown-item"
+                      // language data sending to parent -------->
                       onClick={() => props.changeLanguage("en")}
                     >
                       English

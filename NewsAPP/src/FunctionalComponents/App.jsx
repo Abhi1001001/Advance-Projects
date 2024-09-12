@@ -5,6 +5,7 @@ import Home from "./Home";
 import Footer from "./Footer";
 
 export default function App() {
+  //state management for data passing to child componenet --------->
   let [language, setlanguage] = useState("hi");
   let [search, setsearch] = useState("");
 
