@@ -259,7 +259,8 @@ export default function Projects() {
                   <div className="card-body">
                     <h5 className="card-title">Abhishek Portfolio</h5>
                     <p className="card-text">
-                      I Developed a personal portfolio website to showcase
+                    I Developing a new personal portfolio website with new
+                    advanced feature like light mode and dark mode to showcase
                       projects, skills, and experience using web technologies
                       and the React framework.Built the website using React to
                       create reusable components and provide a dynamic user
