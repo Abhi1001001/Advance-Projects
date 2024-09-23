@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/Advance-Projects/static/js/main.9710da57.js",
+    "main.js": "/Advance-Projects/static/js/main.e4d78175.js",
     "static/media/react.svg": "/Advance-Projects/static/media/react.868f879e8b364ce13b7c7d22ee25fbd2.svg",
     "static/media/redux.svg": "/Advance-Projects/static/media/redux.3e89892383bc341c82cd9a6115e42d4e.svg",
     "static/media/icon-whatsapp.svg": "/Advance-Projects/static/media/icon-whatsapp.9fe3bbe0a9c778e2c0e56222e8268613.svg",
@@ -14,9 +14,9 @@
     "static/media/html.svg": "/Advance-Projects/static/media/html.cf4a6a8490f4999aa215246e693d6920.svg",
     "static/media/material-ui.svg": "/Advance-Projects/static/media/material-ui.8c7f838ab9442b7a7828ef9c28f50934.svg",
     "static/media/css.svg": "/Advance-Projects/static/media/css.db7dfd1247623e1e9223d8ef28a37432.svg",
-    "main.9710da57.js.map": "/Advance-Projects/static/js/main.9710da57.js.map"
+    "main.e4d78175.js.map": "/Advance-Projects/static/js/main.e4d78175.js.map"
   },
   "entrypoints": [
-    "static/js/main.9710da57.js"
+    "static/js/main.e4d78175.js"
   ]
 }
